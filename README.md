@@ -13,8 +13,16 @@ Entre os motivos que eu posso listar para o por que utilizar golang para criaç�
 
 Assim é possível focar mais em como fazer do que quais bibliotecas utilizar
 
+## Testes
+
+Para validação das implementações também foram adicionados testes unitários para as funções seguindo o padrão da linguagem
+
 ## Funções implementadas
 
 #### Insertion Sort (sort/almost_selection_sort.go) : Um quase algoritimo de ordenação por seleção
 
 #### Insertion Sort (sort/insertion_sort.go) : Ordenação de inteiros em ordem crescente
+
+#### Linear Search (search/linear_search.go) : Busca linear de indice em vetor, tempo de execução O(n)
+
+#### BinaryIntSum (binaries/binary_int_sum.go): Realiza a soma entre dois vetores de bits (representados por booleans)
