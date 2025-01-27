@@ -1,7 +1,6 @@
-package main
+package sort
 
 import (
-	"fmt"
 	"strconv"
 )
 
@@ -26,12 +25,4 @@ func sliceToString(v []int) string {
 	}
 
 	return s
-}
-
-func main() {
-
-	r := sort([]int{5, 2, 4, 6, 1, 3})
-
-	fmt.Println(sliceToString(r))
-
 }
