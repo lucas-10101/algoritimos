@@ -23,15 +23,15 @@ func BinaryIntSum(a []bool, b []bool) []bool {
 	for i := len(a) - 1; i >= 0; i-- {
 		if a[i] == b[i] && !c {
 			r[i] = false
-			c = true
+			c = a[i]
 		} else if a[i] == b[i] && c {
-			r[i] = true
-			c = true
+			r[i] = a[i] || c
+			c = a[i]
 		} else if a[i] || a[i] && !c {
 			r[i] = true
 			c = false
 		} else {
-			r[i] = false
+			r[i] = c
 			c = false
 		}
 	}

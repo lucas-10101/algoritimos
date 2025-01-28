@@ -25,4 +25,4 @@ Para validação das implementações também foram adicionados testes unitário
 
 #### Linear Search (search/linear_search.go) : Busca linear de indice em vetor, tempo de execução O(n)
 
-#### BinaryIntSum (binaries/binary_int_sum.go): Realiza a soma entre dois vetores de bits (representados por booleans)
+#### BinaryIntSum (binaries/binary_int_sum.go): Realiza a soma entre dois vetores de bits (representados por booleans) (fui lembrar do byte depois, porém esta ótimo para teste de lógica)
